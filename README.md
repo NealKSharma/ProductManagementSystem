@@ -1,4 +1,5 @@
 ## Demonstration Video
 
-[Click here to watch the demo video](https://nealksharma.github.io/ProductManagementSystem/)
+<a href="Demonstration%20Video.mp4" target="_blank">Demonstration Video</a>
+
 
