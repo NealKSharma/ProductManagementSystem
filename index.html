@@ -11,23 +11,33 @@
       padding: 2rem;
       background-color: #000000;
       color: #ffffff;
-      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
       overflow-x: hidden;
     }
+
     video {
-      width: 600px;
-      max-width: 90%;
-      max-height: 60vh; /* Ensures video doesn’t exceed 80% of viewport height */
+      width: 100%;
+      max-width: 600px;
+      max-height: 80vh;
       border: 2px solid #ffffff;
       border-radius: 8px;
       box-shadow: 0 0 20px rgba(255,255,255,0.2);
+      object-fit: contain;
     }
+
     h1 {
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
+
     p {
       margin-top: 1rem;
       font-size: 1rem;
+      max-width: 600px;
+      text-align: center;
     }
   </style>
 </head>
