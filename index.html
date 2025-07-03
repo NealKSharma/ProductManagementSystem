@@ -7,15 +7,27 @@
   <style>
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
       padding: 2rem;
+      background-color: #000000;
+      color: #ffffff;
       text-align: center;
-      background-color: #f7f7f7;
+      overflow-x: hidden;
     }
     video {
+      width: 600px;
       max-width: 90%;
-      border: 1px solid #ccc;
+      max-height: 80vh; /* Ensures video doesn’t exceed 80% of viewport height */
+      border: 2px solid #ffffff;
       border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      box-shadow: 0 0 20px rgba(255,255,255,0.2);
+    }
+    h1 {
+      margin-bottom: 1.5rem;
+    }
+    p {
+      margin-top: 1rem;
+      font-size: 1rem;
     }
   </style>
 </head>
