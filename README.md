@@ -1,3 +1,5 @@
-<a href="Demonstration%20Video.mp4" target="_blank">Demonstration Video</a>
+## Demonstration Video
+
+[Click here to watch the demo video](https://NealKSharma.github.io/ProductManagementSystem/)
 
 
